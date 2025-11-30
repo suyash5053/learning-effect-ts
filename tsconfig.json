@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+    "plugins": [
+      {
+        "name": "@effect/language-service"
+      }
+    ],
     "esModuleInterop": true,
     "skipLibCheck": true,
     "target": "es2022",
